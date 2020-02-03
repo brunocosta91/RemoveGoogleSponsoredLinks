@@ -24,7 +24,10 @@
 
 if( /www\.google\..*\/search\?/.test(window.location.href) ) {
     
-    var ads = document.getElementById('tads');
-    ads.style.display = 'none';
+    var topAds = document.getElementById('tads');
+    var buttomAds = document.getElementById('bottomads');
+    
+    topAds.style.display = 'none';
+    buttomAds.style.display = 'none';
 }
 
